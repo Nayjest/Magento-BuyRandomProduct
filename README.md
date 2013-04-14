@@ -1,4 +1,9 @@
-Magento-BuyRandomProduct
+"Buy random product!" Magento module
 ========================
+This module allows customers to add random product from currently viewed category to shopping cart. 
 
-Magento module that adds "Add random product to cart" button to category products list
+"Add random product to cart" button appears on the right sidebar of catalog listing pages.
+
+### Tags
+
+**Mageto modules**, **shopping cart**, **catalog enhancements**
