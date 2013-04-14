@@ -1,0 +1,7 @@
+<layout version="0.1.0">
+    <catalog_category_view>
+        <reference name="right">
+            <block type="buy_random_product/button" name="buy_random" template="nayjest/buy_random_product.phtml" before="-"/>
+        </reference>
+    </catalog_category_view>
+</layout>

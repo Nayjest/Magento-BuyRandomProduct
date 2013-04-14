@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nayjest_BuyRandomProduct>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Nayjest_BuyRandomProduct>
+    </modules>
+</config>

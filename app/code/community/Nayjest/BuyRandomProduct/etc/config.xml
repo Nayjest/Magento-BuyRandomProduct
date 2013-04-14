@@ -1,0 +1,23 @@
+<config>
+    <modules>
+        <Nayjest_BuyRandomProduct>
+            <version>0.1.0</version>
+        </Nayjest_BuyRandomProduct>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <nayjest_buy_random_product>
+                    <file>nayjest/buy_random_product.xml</file>
+                </nayjest_buy_random_product>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <buy_random_product>
+                <class>Nayjest_BuyRandomProduct_Block</class>
+            </buy_random_product>
+        </blocks>
+    </global>
+</config>
