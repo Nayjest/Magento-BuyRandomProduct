@@ -18,6 +18,11 @@ class Nayjest_BuyRandomProduct_Block_Button extends Mage_Core_Block_Template
         return $products;
     }
 
+    public function categoryHasProducts()
+    {
+        return count($this->getProducts()) > 0;
+    }
+
     public function getRandomProduct()
     {
         /** @var $products Mage_Catalog_Model_Resource_Product_Collection */
@@ -31,5 +36,14 @@ class Nayjest_BuyRandomProduct_Block_Button extends Mage_Core_Block_Template
     {
         $product = $this->getRandomProduct();
         return $this->helper('checkout/cart')->getAddUrl($product, array());
+    }
+
+    protected function _toHtml()
+    {
+        if ($this->categoryHasProducts()) {
+            return parent::_toHtml();
+        } else {
+            return '';
+        }
     }
 }
