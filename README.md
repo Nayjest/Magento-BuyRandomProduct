@@ -6,4 +6,4 @@ This module allows customers to add random product from currently viewed categor
 
 ### Tags
 
-**Mageto modules**, **shopping cart**, **catalog enhancements**
+**Mageto modules**, **Shopping Cart**, **Category & Product Page Enhancements**, **Alternative Sales Models**
